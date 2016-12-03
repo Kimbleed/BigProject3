@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BigProject3</string>
+    <string name="fragment_1">市场</string>
+    <string name="fragment_2">消息</string>
+    <string name="fragment_3">通讯录</string>
+    <string name="fragment_4">我的</string>
+    <string name="mine">我的</string>
+    <string name="login">登陆</string>
+    <string name="regist">注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="passwordRe">确认密码</string>
+    <string name="pleaseLogin">请先登录</string>
+    <string name="my_icon">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="unregist">注销</string>
+    <string name="goods_name">商品名称</string>
+    <string name="goods_price">商品价格</string>
+    <string name="goods_master">商品发布者</string>
+    <string name="goods_type">商品类型</string>
+    <string name="goods_description">商品描述</string>
+    <string name="upload">上传</string>
+    <string name="name">环信id</string>
+    <string name="finisth">完成</string>
+    <string name="finish">完成</string>
+    <string name="confirm">确定</string>
+    <string name="cancle">取消</string>
+    <string name="set_surface">设为封面</string>
+</resources>

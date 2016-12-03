@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:id="@+id/regist_container">
+    <include layout="@layout/toolbar" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/text_padding_left_identify"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/text_margin_bottom_identify">
+
+            <TextView
+                android:id="@+id/icon_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_user" />
+
+            <EditText
+                android:id="@+id/et_nickname"
+                android:layout_width="match_parent"
+                android:hint="@string/nickname"
+                android:layout_weight="1"
+                android:layout_height="@dimen/text_height_regist"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:gravity="center">
+            <ImageView
+                android:id="@+id/my_icon"
+                android:src="@drawable/photo_take"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height_identify"
+        android:gravity="center_vertical"
+        android:padding="@dimen/text_margin_bottom_identify">
+
+        <TextView
+            android:id="@+id/icon_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_user" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:hint="@string/username"
+            android:layout_height="@dimen/text_height_regist"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height_identify"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/text_padding_top_bottom"
+        android:padding="@dimen/text_margin_bottom_identify">
+
+        <TextView
+            android:id="@+id/icon_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_password"/>
+
+        <EditText
+            android:hint="@string/password"
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height_regist"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height_identify"
+        android:gravity="center_vertical"
+        android:padding="@dimen/text_margin_bottom_identify">
+
+        <TextView
+            android:id="@+id/icon_passwordRe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_password" />
+
+        <EditText
+            android:id="@+id/et_passwordRe"
+            android:hint="@string/passwordRe"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height_regist"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/regist"
+        android:id="@+id/confirm_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orangeAlpha"/>
+
+</LinearLayout>
+
+
+</LinearLayout>

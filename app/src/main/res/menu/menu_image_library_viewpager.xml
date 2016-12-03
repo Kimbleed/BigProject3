@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/type_menu" android:title="123"
+        tool:showAsAction="always"
+        android:icon="@drawable/news_menu"></item>
+</menu>

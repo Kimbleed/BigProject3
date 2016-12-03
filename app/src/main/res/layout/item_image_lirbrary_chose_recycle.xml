@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130sp"
+    android:layout_height="130sp"
+    android:background="@color/orange"
+    android:padding="1sp">
+    <ImageView
+        android:background="@color/white"
+        android:id="@+id/item_image_library_chose_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/item_image_library_chose_btn"
+        android:layout_margin="9sp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_gray_white_icon"
+        android:gravity="center"
+        android:text="x"
+        android:textAllCaps="false"
+        android:layout_width="20sp"
+        android:layout_height="20sp" />
+</RelativeLayout>
